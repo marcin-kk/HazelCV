@@ -86,6 +86,7 @@ body {
 .blog-section {
 	background-color: white;
 	padding: 64px 0;
+	display: inline-block;
 }
 
 .blog-content {
@@ -97,25 +98,58 @@ body {
 	float: left;
 }
 
-
 .blog-title {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .blog-text {
-    font-size: 1rem;
+	font-size: 1rem;
 }
 
 .blog-posts .blog-heading {
-   margin: 0;
+	margin: 0;
 }
 
 .blog-posts .blog-date {
-    font-size: 0.9rem;
-    color: grey;
-    margin-bottom: 32px;
+	font-size: 0.9rem;
+	color: grey;
+	margin-bottom: 32px;
 }
 
 .blog-posts p {
-    margin: 8px 0;
+	margin: 8px 0;
+}
+
+.events-section {
+	width: 100%;
+	background-color: #fdf0e6;
+	padding: 64px 0;
+	display: inline-block;
+}
+
+.events-content {
+	padding: 0 15%;
+}
+
+.events-card {
+	width: 50%;
+	float: left;
+}
+
+.events-card p {
+	margin: 8px 0;
+}
+
+.event-title {
+	font-size: 1.5rem;
+}
+
+.event-location {
+	font-size: 1rem;
+}
+
+.events-card .event-date {
+	font-size: 0.9rem;
+	color: grey;
+	margin-bottom: 32px;
 }
